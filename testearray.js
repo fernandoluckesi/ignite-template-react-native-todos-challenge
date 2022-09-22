@@ -26,3 +26,7 @@ console.log(foundItem)
 
 const newArrayFilterId = array.map(item => ({...item}))
 console.log(newArrayFilterId)
+
+const testTrimString = '        Teste de trim '
+
+console.log(testTrimString.trim())
